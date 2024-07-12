@@ -37,12 +37,21 @@
 
 # The program will output "T" if the input is 1 and "F" otherwise.
 
-number = int(input("Enter the number between 0 and 1\n"))
-if number == 1 :
-    print("T")
-else:
-    print("F")
+# number = int(input("Enter the number between 0 and 1\n"))
+# if number == 1 :
+#     print("T")
+# else:
+#     print("F")
 
 
+# myname=input('whats you name \n')
+# print(f'his name is {myname}')
+
+#ecercise
+first_name=input('your first name\n')
+distance =int(input('distance in km\n'))
+
+
+print(f'hello,{first_name} your km is {distance}km and miles is {round (distance/1.609)} m')
 
 
