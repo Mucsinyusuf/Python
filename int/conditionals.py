@@ -100,5 +100,18 @@ def num_days(month):
         print('number of days in',month,'is',28)
     elif month == 'apr' or month == 'jun' or month == 'sep' or month == 'nov':
         print('number of days in',month,'is',30)
-        
+    else :
+        print("invalid")
 num_days('oct')
+
+# def num_days(month):
+#     days = 31
+#     if month in {'apr','jun','sep','nov'}:
+#     #if month == 'apr' or month =='jun' or month =='sep' or month =='nov':
+#         days = 30
+#     elif month == 'feb':
+#         days = 28
+#     print('number of days in',month,'is',days)
+    
+
+# num_days('jan')
